@@ -6,6 +6,7 @@ void solve(string str,string output,int i, vector<string>& ans){
 	if (i>=str.length()){
 		if(output.length()>0){
 		ans.push_back(output);
+		
 		}
 		return ;
 	}
