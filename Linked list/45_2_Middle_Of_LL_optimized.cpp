@@ -1,7 +1,7 @@
 // https://www.codingninjas.com/codestudio/problems/middle-of-linked-list_973250?leftPanelTab=0
 // Middle Of Linked List
 // basically we are doing two pointer approach where one pointer is slow and another is fast (2x of slow) so when fast cover all element then our slow pointer will be on n/2 element so returh the slow->next address;
-//TC=o(n/2)
+//TC=o(n/2)=o(n),SC=o(n);
 
 
 #include <bits/stdc++.h>
