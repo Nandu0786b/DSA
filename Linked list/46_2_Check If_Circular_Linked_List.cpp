@@ -1,7 +1,7 @@
 // Check If Circular Linked List
 // https://practice.geeksforgeeks.org/problems/circular-linked-list/1
 
-
+//TC=o(n),SC=o(1)
 //{ Driver Code Starts
 // C program to find n'th Node in linked list
 #include <stdio.h>
@@ -56,7 +56,8 @@ int main()
     return 0;
 }
 
-
+//2nd method => create a map Node* type where key is address and value is 1 like visited , so when you trivase complete map then in the end if address is null return false and if address is already in map return true
+//2nd :- TC=o(n),SC=o(n)
 // } Driver Code Ends
 
 

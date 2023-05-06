@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/Nandu0786b?theme=dark&font=Farsan&ext=heatmap">
+</p>
 # My DSA Solved Questions Collection
 
 This repository contains my collection of solved DSA (Data Structures and Algorithms) questions. I have solved these questions from various online platforms like LeetCode, HackerRank, and Codeforces, as well as from different textbooks and online tutorials.
