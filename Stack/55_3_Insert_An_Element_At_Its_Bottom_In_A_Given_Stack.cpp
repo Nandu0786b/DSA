@@ -2,6 +2,7 @@
 // https://www.codingninjas.com/codestudio/problems/insert-an-element-at-its-bottom-in-a-given-stack_1171166?leftPanelTab=0
 
 // very simple pop kartha javo and jab empty ho jaya tho element push kar do and fir backtracking sa sara ka sara element fir sa add kar do
+// TC=o(n),SC=o(n)
 
 #include <bits/stdc++.h> 
 void solve(stack<int>& myStack, int x){

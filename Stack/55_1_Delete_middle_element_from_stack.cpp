@@ -1,3 +1,4 @@
+// Delete middle element from stack
 // https://www.codingninjas.com/codestudio/problems/delete-middle-element-from-stack_985246?leftPanelTab=0
 
 // very simple approach first pop , when count==size/2  now stop and using the backtracking again add poped element in the stack
