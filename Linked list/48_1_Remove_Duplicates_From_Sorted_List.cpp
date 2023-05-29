@@ -1,5 +1,7 @@
+// Remove_Duplicates_From_Sorted_List
 // https://www.codingninjas.com/codestudio/problems/unique-sorted-list_2420283?leftPanelTab=1
 
+// TC=o(n),SC=o(1)
 /************************************************************
 
     Following is the linked list node structure.

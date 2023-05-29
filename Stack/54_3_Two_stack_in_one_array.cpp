@@ -1,3 +1,5 @@
+// two stacks in one array
+// https://www.codingninjas.com/codestudio/problems/two-stacks_983634?leftPanelTab=1
 // here we are starting first stack from start and second stack from the end, so we are using the best space utilisation 
 // second approach we can do using devide space in n/2 part for the both stack
 

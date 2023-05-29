@@ -1,5 +1,7 @@
 // Max rectangle
 // https://practice.geeksforgeeks.org/problems/max-rectangle/1
+// https://leetcode.com/problems/maximal-rectangle/
+// https://www.codingninjas.com/codestudio/problems/maximum-size-rectangle-sub-matrix-with-all-1-s_893017
 
 // very simple previous 56 wali max ractangle wali approach, baically start a loop for the every row in i=0 send only 0th row and check the maximum 
 // histogram area and store the maximum area , now next time send previous row and current row with the column wise sum and if in the current row if any 

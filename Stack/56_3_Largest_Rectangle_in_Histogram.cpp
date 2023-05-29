@@ -1,11 +1,16 @@
 // Largest Rectangle in Histogram
 // https://leetcode.com/problems/largest-rectangle-in-histogram/description/
 
+// Hard
+
 // basically first we find the next and previous smallest element using the previous method after this we simply in previous question we are 
 // find nearest small and storing there number but in this we will store there index because we need width of rectangle. once this calculated 
 // after this width will be next[i]-previous[i]-1 if next[i]==-1 it means in the next we are having all similar size or this is the last so in 
-// this case we will put this by the N which is size of the vector 
-
+// this case we will put this by the N which is size of the vector  previous question are done based on the value but in this done based on the index
+// while(s.top()!=-1 &&  arr[s.top()]>=curr){
+            //     s.pop();
+            // }   in this s.top()!=-1  condition applied so array not go out of index , because s.top() is giving the array index so for the comparison 
+            // of values we did arr[s.top()]>=curr
 
 class Solution {
     private:
