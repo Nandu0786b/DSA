@@ -1,5 +1,8 @@
 // Height of Binary Tree
 // https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1
+// TC=O(n) because we visit every node
+// SC=O(h) hum function ma kuch store tho nahi kar raha hain but recursion ki wajha sa function ek call stack ban raha hain jaha pa 
+// worst case ma h function ki call store karni hogi
 
 
 class Solution{

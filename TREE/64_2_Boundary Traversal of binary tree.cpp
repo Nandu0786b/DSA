@@ -54,7 +54,7 @@ public:
         if(root==NULL){
             return ans;
         }
-        ans.push_back(root->data);
+        ans.push_back(root->data); //ya wala alreay root node ka data add kar chuka hain so in the below we not require to send root again we will send child of the root 
         left(root->left,ans);
         leaf(root->left,ans); //yaha pa leaf Node ki counting root ka left and right ka liya alag alag ki hain 
         leaf(root->right,ans);//because agar root node ka left and right null hua tho who do bar push ho jayaenga
