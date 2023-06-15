@@ -10,7 +10,7 @@ vector < vector < int >> printAdjacency(int n, int m, vector < vector < int >> &
     vector<vector<int>> ans(n);//vector which contains n vector
     //array and vector from the both we can solve this question
 
-    for(int i=0;i<m;i++){
+    for(int i=0;i<m;i++){//the given vector sixe is equual to the edge
         int u=edges[i][0];
         int v=edges[i][1];
 
@@ -21,6 +21,7 @@ vector < vector < int >> printAdjacency(int n, int m, vector < vector < int >> &
     vector<vector<int>> adj(n);
 
     for(int i=0;i<n;i++){//in this we are pushing the same
+    //new vector size is equal to the number of nodes
         adj[i].push_back(i);
         // cout<<i<<" ";
 
