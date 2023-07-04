@@ -129,7 +129,7 @@ class Solution {
 };
 
 
-//
+//BY ME
 
 
 class Solution {
@@ -159,6 +159,37 @@ public:
     long long noOfWays(int M, int N, int X) {
         vector<vector<long long>> dp(N + 1, vector<long long>(X + 1, -1));
         return solve(M, N, X, dp);
+    }
+};
+
+
+//BY ME
+
+
+
+class Solution {
+    public:
+    long long solve(int M, int N, int X, int cur, int sum, vector<vector<long long>>& dp) {
+        if (cur == N) {//if you see then we started from 0 index so here we are using cur==N but if we start from the 1 index then u have to use cur>N
+            return sum == X ? 1 : 0;
+        }
+        if (sum >= 51) {
+            return 0;
+        }
+        if (dp[cur][sum] != -1) {
+            return dp[cur][sum];
+        }
+        long long ans = 0;
+        for (int i = 1; i <= M; i++) {
+            ans += solve(M, N, X, cur + 1, sum + i, dp);
+        }
+
+        return dp[cur][sum] = ans;
+    }
+
+    long long noOfWays(int M , int N , int X) {
+        vector<vector<long long>> dp(N, vector<long long>(51, -1));
+        return solve(M, N, X, 0, 0, dp);
     }
 };
 
